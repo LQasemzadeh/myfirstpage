@@ -6,20 +6,39 @@
     <link rel="icon" href="fav.ico">
 </head>
 <body>
-<h1 style="background-color: aquamarine;width: 50%;height: 10%;font-family: Tahoma;text-align: center">learning HTML</h1>
+<h1 style="background-color: aquamarine;width: 50%;height: 10%;font-family: Tahoma;text-align: center">learning
+    HTML</h1>
+
+Index:
+<br />
+<a href="#table1">Table1</a>
+<br />
+<a href="#list1">List1</a>
+
+
 I am really excited in learning HTML from my dear brother.
 <h2>Testing some elements</h2>
 <p>I do appreciate my bro <br/>that learning me programming</p>
-<a href="login.html" title="loginb">
-    <img src="libery6.png" width="20%" height="20%" >
-</a>
+<p>
+    <a href="login.html" title="loginb">
+        <img src="libery6.png" width="20%" height="20%"  style="margin: auto">
+    </a>
+</p>
+
 
 <a href="login.html" target="_blank">log in</a>
 
-<hr />
+<hr/>
 <p style="background-color: tomato;font-size: 160%;"><em>tomato</em> is red</p>
-<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-<p style="color: #6d792f;">Do not forget to buy <mark>milk</mark> today.</p>
+<p>My favorite color is
+    <del>blue</del>
+    <ins>red</ins>
+    .
+</p>
+<p style="color: #6d792f;">Do not forget to buy
+    <mark>milk</mark>
+    today.
+</p>
 <pre>
   My Bonnie lies over the ocean.
 
@@ -29,25 +48,46 @@ I am really excited in learning HTML from my dear brother.
 
   Oh, bring back my Bonnie to me.
 </pre>
-<table>
+<table style="margin: auto;border: solid 5px #6d792f;padding: 5px;" id="table1">
+    <thead>
+    <tr>
+        <th colspan="3">person</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Ali</td>
+        <td>setaregan</td>
+        <td rowspan="2">50000$</td>
+    </tr>
+    <tr>
+        <td>zahra</td>
+        <td>ramak</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
     <tr>
         <th>person</th>
         <th>company</th>
         <th>salary</th>
     </tr>
-    <tr>
-        <td>Ali</td>
-        <td>setaregan</td>
-        <td>30000$</td>
-    </tr>
-    <tr>
-        <td>zahra</td>
-        <td>ramak</td>
-        <td>20000$</td>
-    </tr>
+    </tfoot>
+    <caption>base on dollar</caption>
 </table>
-<caption>base on dollar</caption>
+<ol id="list1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
 
+<dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+</dl>
 <!--<em>today end lesson</em>-->
 </body>
 </html>
